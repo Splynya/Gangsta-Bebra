@@ -1,8 +1,15 @@
 body {
-	background: antiquewhite;
+	
 	font-style: italic;
 	font-size: 25px;
 
 
 }
 
+.red {
+	color: darkred;
+}
+
+.aboba {
+	color: lightskyblue;
+}
