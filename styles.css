@@ -1,1 +1,17 @@
-ABOBA
+.container {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+
+}
+
+.card {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	width: 100px;
+	display: inline-block;
+
+}
