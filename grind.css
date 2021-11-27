@@ -1,9 +1,53 @@
-.blocky {
-display: flex;
-justify-content:center;
+p {
+	display: flex;
+    justify-content: center;
+    padding:  5px;
+    border: solid black 2px;
+    background: darkred;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
 
 
 }
-iframe {
-	flex-shrink: 0;
+
+.search {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border: solid blue 2px;
+	width: 40%;
+	margin-top: auto;
+	font-style: italic;
+	margin-top: 30px;
+	margin: auto;
 }
+
+.ad1 {
+	display: flex;
+	border: solid black 1px;
+	padding: 200px;
+	width: 50%;
+	background: azure;
+	margin-top: 30px;
+	 background-image: url(https://genshinpedia.ru/wp-content/uploads/2021/01/1610535738_7647966b7343c29048673252e490f736.png);
+}
+
+.ad2 {
+	display: flex;
+	border: solid black 2px;
+	padding: 200px;
+	margin-top: 45px;
+	background: grey;
+
+}
+
+.ad3 {
+	margin: auto;
+	width: 10%;
+	border: solid black 2px;
+	padding: 25px;
+	justify-content: space-between;
+
+}
+
