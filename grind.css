@@ -35,10 +35,8 @@ p {
 
 .ad2 {
 	display: flex;
-	border: solid black 2px;
-	padding: 200px;
 	margin-top: 45px;
-	background: grey;
+	
 
 }
 
