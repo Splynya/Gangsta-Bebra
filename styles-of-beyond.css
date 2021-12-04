@@ -1,0 +1,21 @@
+body {
+	background: #FFD9D9;
+}
+
+.title-text {
+	display: flex;
+	justify-content: center;
+	color: blue;
+	font-size: 30px;
+	padding: 50px;
+}
+
+.center-text {
+	color: #153A54;
+	font-size: 30px;
+	justify-content: center;
+	padding: 100px;
+	margin: auto;
+	
+
+}

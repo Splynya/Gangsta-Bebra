@@ -35,17 +35,18 @@ p {
 
 .ad2 {
 	display: flex;
-	margin-top: 45px;
+	padding:20px ;
 	
 
 }
 
 .ad3 {
 	margin: auto;
-	width: 10%;
+	width: 35%;
 	border: solid black 2px;
 	padding: 25px;
-	justify-content: space-between;
+	margin-right: 10px;
+	
 
 }
 
