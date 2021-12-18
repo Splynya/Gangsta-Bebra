@@ -1,52 +1,40 @@
-p {
-	display: flex;
-    justify-content: center;
-    padding:  5px;
-    border: solid black 2px;
-    background: darkred;
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-
-
-}
-
-.search {
-	display: flex;
-	justify-content: center;
-	padding: 10px;
-	border: solid blue 2px;
-	width: 40%;
-	margin-top: auto;
-	font-style: italic;
-	margin-top: 30px;
-	margin: auto;
-}
-
-.ad1 {
-	display: flex;
+.container {
 	border: solid black 1px;
-	padding: 200px;
-	width: 50%;
-	background: azure;
-	margin-top: 30px;
-	 background-image: url(https://genshinpedia.ru/wp-content/uploads/2021/01/1610535738_7647966b7343c29048673252e490f736.png);
+	width: 650px;
+	height: 650px;
+	display: inline-block;
+	margin: 150px;
 }
 
-.ad2 {
-	display: flex;
-	padding:20px ;
-	
+.red {
+	border: solid black 1px;
+	background: red;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
 
-}
-
-.ad3 {
-	margin: auto;
-	width: 35%;
-	border: solid black 2px;
-	padding: 25px;
-	margin-right: 10px;
-	
 
 }
 
+.blue {
+    border: solid black 1px;
+	background: blue;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 50px;
+	right: 100px;
+}
+
+.green {
+	border: solid black 1px;
+	background: green;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 66%;
+    left: 37%;
+}
