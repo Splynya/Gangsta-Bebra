@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Надо больше классов</title>
-  <link rel="stylesheet" type="text/css" href="coconut_milk.css">
-  <style>
+  <title>Декоративные элементы через абсолютное позиционирование</title>
+  <meta charset="utf-8">
+  <style type="text/css">
     .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-	
+      position: relative;
+      width: 800px;
+      height: 450px;
+      margin: 30px auto;
     }
 
-    .container div {
-      width: 100px;
-      height: 100px;
-      margin: 20px;
-      border: 1px solid;
+    .background {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
     }
+
+    .overlay {
+      position: absolute;
+      background: rgba(0,0,0,0);
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    .container:hover .overlay {
+      background: rgba(0,0,0,.5);
+    }
+
+
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="one">Б</div>
-    <div class="two">Е</div>
-    <div class="three">Б</div>
-    <div class="four">Р</div>
-    <div class="five">У</div>
-    <div class="six">С</div>
+    <img class="background" src="https://store-images.s-microsoft.com/image/apps.17599.14222458110220046.63cf67f1-c306-44d3-8890-1cc6b204e75a.c80ed14f-26ee-41fa-bd94-fa317b47228c?mode=scale&q=90&h=1080&w=1920">
+    <span class="overlay"></span>
   </div>
 </body>
 </html>
