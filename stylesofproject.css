@@ -107,6 +107,17 @@ color: #000000;
 }
 
 .post-itself {
+ width: 1px;
+ height: 1px;
+ margin-top: 1px;
+ margin-left: 1px;
+ font-family: 'Jost';
+ font-size: large;
+ font-style: italic;
+ padding: 20px;
+ border: black solid 1px;
+ background-color: #D6E9FA;
+ gap: 10px;
 
 }
 
@@ -115,8 +126,18 @@ color: #000000;
     margin-top: 80px;
     margin-left: 231px;
     color: blue;
+  
 }
 
-input {
-margin-top: 1px;
+.the-freakin-button {
+    width: 545px;
+    margin-top: 54px;
+}
+
+div.ads-text:hover, div.ads-text:active {text-decoration: underline;}
+div.just-cursive:hover, div.just-cursive:active {text-decoration: underline;}
+
+.main-post-text {
+
+ 
 }
